@@ -1,3 +1,5 @@
+#### Medallion-Data-Lakehouse-Pipeline-using-PySpark-and-dbt
+
 A production-style **Lakehouse** pipeline implementing the **Medallion architecture**—**Bronze (raw streaming ingest in Delta)** and **Silver (curated CDC/upserts) in PySpark**, with **Gold (dim/fact models, snapshots, incremental models) in dbt**—running on **Databricks**.
 
 > 🔎 Dataset theme: ride-hailing domain with core entities: `customers`, `drivers`, `payments`, `trips`, `locations`, `vehicles`.  
